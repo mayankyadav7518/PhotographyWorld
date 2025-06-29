@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { FaInstagram, FaFacebookF, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaPhoneAlt, FaEnvelope, FaYoutube, FaMapMarkedAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { motion } from 'framer-motion';
 
 // Animation variants for footer
@@ -56,26 +56,36 @@ function Footer() {
           <h4 className="text-lg font-semibold mb-2">Get in Touch</h4>
           <div className="space-y-2 text-sm text-teal-100">
             <div className="flex items-center gap-2">
-              <FaPhoneAlt /> <span>+91-9876543210</span>
+              <FaPhoneAlt /> <span>+91 8090191740</span>
             </div>
             <div className="flex items-center gap-2">
-              <FaEnvelope /> <span>contact@dreamlens.com</span>
+              <FaEnvelope /> <span>yuvrajsingh@gmail.com</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <FaMapMarkerAlt /> <span>Gorakhpur, Uttar Pradesh, India</span>
             </div>
           </div>
           <div className="flex gap-4 mt-4">
             <motion.a
-              href="#"
+              href="https://instagram.com"
               className="text-white hover:text-red-400"
               whileHover={{ scale: 1.2 }}
             >
               <FaInstagram size={20} />
             </motion.a>
             <motion.a
-              href="#"
+              href="https://facebook.com"
               className="text-white hover:text-red-400"
               whileHover={{ scale: 1.2 }}
             >
               <FaFacebookF size={20} />
+            </motion.a>
+            <motion.a
+              href="https://youtube.com"
+              className="text-white hover:text-red-400"
+              whileHover={{ scale: 1.2 }}
+            >
+              <FaYoutube size={20} />
             </motion.a>
           </div>
         </motion.div>
@@ -88,10 +98,10 @@ function Footer() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.6 }}
       >
-        <span className="block mb-2">
+        {/* <span className="block mb-2">
           ♦ Over 1,000+ Campaigns ♦ 98% Client Satisfaction ♦ Trusted Since 2010 ♦
-        </span>
-        <span>© {new Date().getFullYear()} DreamLens Photography. All Rights Reserved.</span>
+        </span> */}
+        <span>© {new Date().getFullYear()} Photography World. All Rights Reserved.</span>
       </motion.div>
     </motion.footer>
   );

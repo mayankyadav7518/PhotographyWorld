@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaFacebook,
   FaTwitter,
+  FaYoutube,
 } from "react-icons/fa";
 
 // Animation variants for section reveals
@@ -267,7 +268,7 @@ const Contact = () => {
                   transition={{ delay: 0.6, duration: 0.5 }}
                 >
                   <FaPhone className="text-teal-600" size={20} />
-                  <p className="text-gray-700">+91 123-456-7890</p>
+                  <p className="text-gray-700">+91 8090191740</p>
                 </motion.div>
                 <motion.div
                   className="flex items-center gap-3"
@@ -276,7 +277,7 @@ const Contact = () => {
                   transition={{ delay: 0.7, duration: 0.5 }}
                 >
                   <FaEnvelope className="text-teal-600" size={20} />
-                  <p className="text-gray-700">info@photographyworld.com</p>
+                  <p className="text-gray-700">yuvrajsingh@gmail.com</p>
                 </motion.div>
                 <motion.div
                   className="flex items-center gap-3"
@@ -286,7 +287,7 @@ const Contact = () => {
                 >
                   <FaMapMarkerAlt className="text-teal-600" size={20} />
                   <p className="text-gray-700">
-                    123 Memory Lane, Mumbai, India
+                    Gorakhpur, Uttar Pradesh, India
                   </p>
                 </motion.div>
               </div>
@@ -314,13 +315,13 @@ const Contact = () => {
                     <FaFacebook size={24} />
                   </motion.a>
                   <motion.a
-                    href="https://twitter.com"
+                    href="https://youtube.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-teal-600 hover:text-teal-800"
                     whileHover={{ scale: 1.2 }}
                   >
-                    <FaTwitter size={24} />
+                    <FaYoutube size={24} />
                   </motion.a>
                 </div>
               </div>
