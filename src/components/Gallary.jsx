@@ -6,6 +6,13 @@ import pic3 from "../assets/pic3.jpg";
 import pic4 from "../assets/pic4.jpg";
 import pic5 from "../assets/pic5.jpg";
 import pic6 from "../assets/pic6.webp";
+import pic7 from "../assets/aman_page-0029.jpg";
+import pic8 from "../assets/aman_page-0030.jpg";
+import pic9 from "../assets/aman_page-0031.jpg";
+import pic10 from "../assets/aman_page-0032.jpg";
+import pic11 from "../assets/aman_page-0036.jpg";
+import pic12 from "../assets/RAP_1973.jpg";
+import pic13 from "../assets/RAP_1978.jpg";
 
 // Animation variants for section reveals
 const sectionVariants = {
@@ -27,16 +34,23 @@ const buttonVariants = {
 
 // Gallery data
 const galleryImages = [
-  { src: pic1, category: 'Wedding', alt: 'Wedding ceremony moment' },
-  { src: pic2, category: 'Pre-Wedding', alt: 'Romantic pre-wedding shoot' },
-  { src: pic3, category: 'Events', alt: 'Birthday party celebration' },
-  { src: pic4, category: 'Wedding', alt: 'Bride and groom portrait' },
-  { src: pic5, category: 'Pre-Wedding', alt: 'Couple in scenic location' },
-  { src: pic6, category: 'Events', alt: 'Anniversary celebration' },
-  { src: pic3, category: 'Wedding', alt: 'Wedding dance moment' },
-  { src: pic4, category: 'Pre-Wedding', alt: 'Engagement photo session' },
-  { src: pic5, category: 'Events', alt: 'Party event capture' },
-  { src: pic6, category: 'Wedding', alt: 'Wedding reception scene' },
+  // { src: pic1, category: 'Wedding', alt: 'Wedding ceremony moment' },
+  // { src: pic2, category: 'Pre-Wedding', alt: 'Romantic pre-wedding shoot' },
+  // { src: pic3, category: 'Events', alt: 'Birthday party celebration' },
+  // { src: pic4, category: 'Wedding', alt: 'Bride and groom portrait' },
+  // { src: pic5, category: 'Pre-Wedding', alt: 'Couple in scenic location' },
+  // { src: pic6, category: 'Events', alt: 'Anniversary celebration' },
+  // { src: pic3, category: 'Wedding', alt: 'Wedding dance moment' },
+  // { src: pic4, category: 'Pre-Wedding', alt: 'Engagement photo session' },
+  // { src: pic5, category: 'Events', alt: 'Party event capture' },
+  // { src: pic6, category: 'Wedding', alt: 'Wedding reception scene' },
+   { src: pic7, category: 'Wedding', alt: 'Bride and groom portrait' },
+  { src: pic8, category: 'Pre-Wedding', alt: 'Couple in scenic location' },
+   { src: pic9, category: 'Wedding', alt: 'Bride and groom portrait' },
+  { src: pic10, category: 'Pre-Wedding', alt: 'Couple in scenic location' },
+   { src: pic11, category: 'Wedding', alt: 'Bride and groom portrait' },
+  { src: pic12, category: 'Pre-Wedding', alt: 'Couple in scenic location' },
+  { src: pic13, category: 'Pre-Wedding', alt: 'Couple in scenic location' },
 ];
 
 const Gallery = () => {

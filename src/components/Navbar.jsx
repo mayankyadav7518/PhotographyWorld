@@ -16,11 +16,12 @@ const menuItems = [
   {
     name: "Services",
     sub: [
-      ["Candid Photo Shoot", "/services?category=candid-shoot"],
+      ["Candid Photography", "/services?category=candid-shoot"],
       ["Normal Photo Shoot", "/services?category=normal-shoot"],
-      ["Drone Recording", "/services?category=drone-recording"],
+      ["Cinematic Videography", "/services?category=cinematic-videography"],
+      ["Drone Shoot", "/services?category=drone-recording"],
       ["Photo & Video Editing", "/services?category=editing"],
-      ["Album", "/services?category=album-making"],
+      ["Album Design", "/services?category=album-making"],
     ],
   },
   { name: "Gallery", to: "/gallary" },
@@ -101,7 +102,7 @@ export default function Navbar() {
                   <Link
                     key={label}
                     to={path}
-                    className="block px-4 py-2 hover:bg-gray-100 text-gray-700"
+                    className="block px-4 py-2 hover:bg-gray-100 text-sm text-gray-700"
                     onClick={() => {
                       setOpenDropdown(null);
                       if (isMobile) setMobileMenuOpen(false);

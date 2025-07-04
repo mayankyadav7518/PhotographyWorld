@@ -238,11 +238,14 @@
 import { useNavigate, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaCameraRetro, FaUsers, FaVideo, FaEdit, FaBook } from 'react-icons/fa';
-import candid from "../assets/candid.jpg";
+import { GiDeliveryDrone } from "react-icons/gi";
+import { ImVideoCamera } from "react-icons/im";
+import candid from "../assets/RAP_1973.jpg";
 import normal from "../assets/normal.jpg";
 import drone from "../assets/drone.jpg";
 import editing from "../assets/editing.webp";
 import album from "../assets/album.jpg";
+import cinematic from "../assets/RAP_1978.jpg";
 
 const sectionVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -285,7 +288,7 @@ const servicesData = {
   },
   'drone-recording': {
     title: 'Drone Recording',
-    icon: <FaVideo size={40} className="text-teal-600" />,
+    icon: <GiDeliveryDrone size={40} className="text-teal-600" />,
     description: 'Elevate your event with breathtaking aerial photography and videography.',
     details: [
       'Aerial photography and videography',
@@ -312,12 +315,26 @@ const servicesData = {
     icon: <FaBook size={40} className="text-teal-600" />,
     description: 'Preserve your memories in beautifully designed photo albums.',
     details: [
+      'Glossy and NTR waterproof album',
+      'Mat finish albums',
       'Custom-designed, high-quality photo albums',
       'Personalized layouts and themes',
       'Premium materials for durability',
-      'Perfect for weddings, anniversaries, and events',
     ],
     image: album,
+  },
+   'cinematic-videography': {
+    title: 'Cinematic Videography',
+    icon: <ImVideoCamera size={40} className="text-teal-600" />,
+    description: 'Get best cinematic videography by our best and experienced person',
+    details: [
+      'Glossy and NTR waterproof album',
+      'Mat finish albums',
+      'Custom-designed, high-quality photo albums',
+      'Personalized layouts and themes',
+      'Premium materials for durability',
+    ],
+    image: cinematic,
   },
 };
 
@@ -372,7 +389,7 @@ const Services = () => {
             <motion.img
               src={selectedData.image}
               alt={selectedData.title}
-              className="w-full md:w-1/2 h-96 object-cover rounded-xl shadow-md"
+              className="w-full md:w-1/2 h-96 object-contain"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.6, duration: 0.5 }}

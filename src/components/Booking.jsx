@@ -144,7 +144,7 @@ function Booking() {
         ></textarea>
         <button
           type="submit"
-          className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-full text-lg transition w-full"
+          className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 cursor-pointer rounded-full text-lg transition w-full"
         >
           Submit Booking
         </button>

@@ -6,6 +6,13 @@ import pic3 from "../assets/pic3.jpg";
 import pic4 from "../assets/pic4.jpg";
 import pic5 from "../assets/pic5.jpg";
 import pic6 from "../assets/pic6.webp";
+import pic7 from "../assets/aman_page-0029.jpg";
+import pic8 from "../assets/aman_page-0030.jpg";
+import pic9 from "../assets/aman_page-0031.jpg";
+import pic10 from "../assets/aman_page-0032.jpg";
+import pic11 from "../assets/aman_page-0036.jpg";
+import pic12 from "../assets/RAP_1973.jpg";
+import pic13 from "../assets/RAP_1978.jpg";
 
 // Animation variants for section reveals
 const sectionVariants = {
@@ -28,17 +35,17 @@ const portfolioData = {
   wedding: {
     title: "Wedding Photography",
     description: "Timeless captures of your special day, from heartfelt vows to joyous celebrations, crafted to preserve every moment.",
-    images: [pic1, pic2, pic3, pic4, pic5, pic6],
+    images: [pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic1, pic3, pic4, pic5, pic6],
   },
   'pre-wedding': {
     title: "Pre-Wedding Photography",
     description: "Romantic and creative engagement shoots that tell your love story with stunning visuals and heartfelt emotions.",
-    images: [pic3, pic4, pic5, pic6, pic1, pic2],
+    images: [pic12, pic7, pic9, pic10, pic11, pic12, pic13, pic3, pic4, pic5, pic6, pic1],
   },
   events: {
     title: "Events Photography",
     description: "Vibrant photography for parties, birthdays, and anniversaries, capturing the energy and joy of your celebrations.",
-    images: [pic5, pic6, pic1, pic2, pic3, pic4],
+    images: [pic9, pic7, pic8, pic10, pic11, pic12, pic13, pic5, pic6, pic1, pic3, pic4],
   },
 };
 

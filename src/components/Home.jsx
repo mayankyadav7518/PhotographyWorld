@@ -6,6 +6,13 @@ import pic3 from "../assets/pic3.jpg";
 import pic4 from "../assets/pic4.jpg";
 import pic5 from "../assets/pic5.jpg";
 import pic6 from "../assets/pic6.webp";
+import pic7 from "../assets/aman_page-0029.jpg";
+import pic8 from "../assets/aman_page-0030.jpg";
+import pic9 from "../assets/aman_page-0031.jpg";
+import pic10 from "../assets/aman_page-0032.jpg";
+import pic11 from "../assets/aman_page-0036.jpg";
+import pic12 from "../assets/RAP_1973.jpg";
+import pic13 from "../assets/RAP_1978.jpg";
 import {
   FaCameraRetro,
   FaBirthdayCake,
@@ -24,7 +31,7 @@ const services = [
   { icon: <FaCameraRetro size={30} className="text-red-600" />, title: "Custom Functions" },
 ];
 
-const portfolioImages = [pic1, pic2, pic3, pic4, pic5, pic6];
+const portfolioImages = [pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic1, pic3, pic4, pic5, pic6];
 
 // Animation variants for section reveals
 const sectionVariants = {
