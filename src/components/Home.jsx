@@ -11,8 +11,8 @@ import pic8 from "../assets/aman_page-0030.jpg";
 import pic9 from "../assets/aman_page-0031.jpg";
 import pic10 from "../assets/aman_page-0032.jpg";
 import pic11 from "../assets/aman_page-0036.jpg";
-import pic12 from "../assets/RAP_1973.jpg";
-import pic13 from "../assets/RAP_1978.jpg";
+import pic12 from "../assets/RAP_1973.JPG";
+import pic13 from "../assets/RAP_1978.JPG";
 import {
   FaCameraRetro,
   FaBirthdayCake,

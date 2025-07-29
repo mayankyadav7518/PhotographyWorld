@@ -240,12 +240,12 @@ import { motion } from 'framer-motion';
 import { FaCameraRetro, FaUsers, FaVideo, FaEdit, FaBook } from 'react-icons/fa';
 import { GiDeliveryDrone } from "react-icons/gi";
 import { ImVideoCamera } from "react-icons/im";
-import candid from "../assets/RAP_1973.jpg";
+import candid from "../assets/RAP_1973.JPG";
 import normal from "../assets/normal.jpg";
 import drone from "../assets/drone.jpg";
 import editing from "../assets/editing.webp";
 import album from "../assets/album.jpg";
-import cinematic from "../assets/RAP_1978.jpg";
+import cinematic from "../assets/RAP_1978.JPG";
 
 const sectionVariants = {
   hidden: { opacity: 0, y: 50 },
