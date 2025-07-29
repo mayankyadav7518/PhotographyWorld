@@ -33,18 +33,15 @@ const services = [
 
 const portfolioImages = [pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic1, pic3, pic4, pic5, pic6];
 
-// Animation variants for section reveals
 const sectionVariants = {
   hidden: { opacity: 0, y: 50 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: 'easeOut' } },
 };
 
-// Animation variants for buttons
 const buttonVariants = {
   hover: { scale: 1.05, boxShadow: '0px 4px 15px rgba(0, 0, 0, 0.2)', transition: { duration: 0.3 } },
 };
 
-// Animation variants for images
 const imageVariants = {
   hover: { scale: 1.05, transition: { duration: 0.3 } },
 };
@@ -54,7 +51,6 @@ function Homepage() {
   const navigate = useNavigate();
   return (
     <main className="bg-white text-gray-800 font-sans">
-      {/* Hero Section with Background Video */}
       <motion.section
         className="relative w-full h-screen overflow-hidden flex items-center justify-center text-center bg-gradient-to-r from-white via-teal-50 to-white"
         initial="hidden"
@@ -115,7 +111,6 @@ function Homepage() {
         </div>
       </motion.section>
 
-      {/* Services Section */}
       <motion.section
         className="py-16 px-6 md:px-20 bg-teal-50"
         initial="hidden"
@@ -142,7 +137,6 @@ function Homepage() {
         </div>
       </motion.section>
 
-      {/* About Us */}
       <motion.section
         className="py-16 px-6 md:px-20 bg-white"
         initial="hidden"
@@ -156,7 +150,6 @@ function Homepage() {
         </p>
       </motion.section>
 
-      {/* Portfolio with Alternate Image Heights */}
       <motion.section
         id="portfolio"
         className="py-16 px-6 md:px-20 bg-white flex flex-col items-center"
@@ -188,7 +181,6 @@ function Homepage() {
         </motion.button>
       </motion.section>
 
-      {/* Testimonials */}
       <motion.section
         className="py-16 px-6 md:px-20 bg-teal-100"
         initial="hidden"
@@ -223,7 +215,6 @@ function Homepage() {
         </div>
       </motion.section>
 
-      {/* Call to Action */}
       <motion.section
         className="py-20 px-6 md:px-20 text-center"
         initial="hidden"
